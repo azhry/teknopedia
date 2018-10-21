@@ -1,0 +1,95 @@
+.navbar-brand {
+	font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+}
+
+.footer {
+	color: #DDD;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 1%;
+	font-family: 'Volkorn', serif;
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+.social-media-icons:hover {
+	transform: translateY(-2px);
+
+	transition-property: transform;
+	transition-duration: 0.1s;
+	transition-timing-function: ease-in-out;
+}
+
+#carousel {
+	margin-top: -2.5%;
+	height: 65%;
+}
+
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100%;
+}
+.item:nth-child(1) {
+  background: #74C390;
+}
+.item:nth-child(2) {
+  background: #51BCE8;
+}
+.item:nth-child(3) {
+  background: #E46653;
+}
+
+.panel {
+	height: 300px;
+	box-shadow: 0 3px grey;
+}
+
+.panel:hover {
+	transition-property: box-shadow, border-color;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+
+	box-shadow: 0 3px rgb(26, 188, 156);
+	border-color: rgb(26, 188, 156);
+}
+
+.footer a {
+	color: #DDD;
+}
+
+.footer p {
+	line-height: 7px;
+}
+
+.footer b {
+	font-size: 24px;
+}
